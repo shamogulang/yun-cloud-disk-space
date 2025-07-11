@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/personal_cloud?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
-    username: root
-    password: 123456
+    url: jdbc:mysql://217.60.249.94:3306/personal_cloud?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: personal
+    password: 12345678
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
@@ -16,3 +16,6 @@ auth:
   whitelist:
     - /error
     - /space/create
+
+user:
+  auth: http://45.154.2.158:8081
