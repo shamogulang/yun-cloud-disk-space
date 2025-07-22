@@ -15,7 +15,11 @@ mybatis:
 auth:
   whitelist:
     - /error
-    - /space/create
 
 user:
   auth: http://45.154.2.158:8081
+
+
+third:
+  auth:
+    secret: 12345678
